@@ -1,0 +1,24 @@
+.container {
+    display: flex; 
+    justify-content: space-between;
+  }
+  
+  #editor,
+  #preview {
+    width: 45%;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  #editor {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #preview {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow-y: auto;
+  }
+  
